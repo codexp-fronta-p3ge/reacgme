@@ -1,0 +1,25 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+
+.get-started {
+    background-color: #008af5;
+    padding: 5%;
+}
+
+.get-started div {
+    margin: 0 auto;
+}
+
+.get-started h2, .get-started p{
+    text-align: center;
+    color: #fff; 
+}
+
+.get-started h2 {
+    font-size: 125%;
+}
+
