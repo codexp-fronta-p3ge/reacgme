@@ -9,6 +9,34 @@ html, body {
     width: 100%;
 }
 
+.reasons-engagement {
+    background: #f0f5f9;
+}
+
+.reasons-texto {
+    max-width: 420px;
+    padding: 6px;
+}
+
+.reasons-texto h2, .reasons-texto p {
+    color: #606971; 
+}
+
+.reasons-texto h1 {
+    font-weight: bold;
+    text-align: center;
+}
+
+.reasons-texto h2 {
+    font-size: 120%;
+    font-weight: bold;                 
+}
+
+.reasons-texto p {
+    margin: 18px 0 18px 0;
+}
+
+
 .button-socialmedia {
     display: flex;
     justify-content: center;
@@ -58,4 +86,38 @@ html, body {
 
 .button-socialmedia .fa-instagram {
     background: #527FA4;
+}
+
+.button {
+    margin: 5% 0;
+    text-decoration: none;
+    font-size: 1.3em;
+    border-radius: 30px;
+    border: none;
+}
+
+.button.outline {
+    padding: 1.5% 3%;
+    border: 2px solid grey;
+    background: white;
+}
+
+.button.outline.grey {
+    color: grey;
+}
+
+.button.outline.blue {
+    color: #0089f5;
+}
+
+.button.light {
+    padding: 2.5% 6%;
+    background: #0089f5;
+    color: white;
+}
+
+.button.dark {
+    padding: 2% 5%;
+    background: #364049;
+    color: white;
 }
