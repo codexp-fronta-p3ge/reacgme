@@ -16,7 +16,7 @@ html, body {
     padding: 5%;
 }
 
-.fa {
+.button-socialmedia .fa {
     width: 30px;
     height: 30px;
     padding: 9px;
@@ -26,7 +26,7 @@ html, body {
     font-size: .8em;
 }
 
-.fa.fa-plus { 
+.button-socialmedia .fa-plus { 
     width: 15px;
     height: 100%;
     margin: 9px 4px;
@@ -36,26 +36,26 @@ html, body {
     font-size: .7em;
 }
 
-.fa.fa-facebook {
+.button-socialmedia .fa-facebook {
     background: #405D9B;
 }
 
-.fa.fa-twitter {
+.button-socialmedia .fa-twitter {
     background: #1DA1F2;
 }
 
-.fa.fa-google-plus {
+.button-socialmedia .fa-google-plus {
     background: #DC4A38;
 }
 
-.fa.fa-linkedin {
+.button-socialmedia .fa-linkedin {
     background: #0077B5;
 }
 
-.fa.fa-pinterest {
+.button-socialmedia .fa-pinterest {
     background: #BD081B;
 }
 
-.fa.fa-instagram {
+.button-socialmedia .fa-instagram {
     background: #527FA4;
 }
