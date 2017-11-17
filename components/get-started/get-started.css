@@ -7,7 +7,7 @@
 
 .get-started {
     background-color: #008af5;
-    padding: 5%;
+    padding: 60px 30px 60px 30px;
 }
 
 .get-started div {
@@ -20,6 +20,9 @@
 }
 
 .get-started h2 {
-    font-size: 125%;
+    font-size: 150%;
 }
 
+.get-started p {
+    margin: 12px 0 12px 0;                                     
+}
