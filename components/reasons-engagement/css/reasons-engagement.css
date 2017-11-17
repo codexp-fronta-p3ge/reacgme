@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 html, body {
@@ -10,7 +11,13 @@ html, body {
 }
 
 .reasons-engagement {
-    background: #f0f5f9;
+    position: relative;
+    background: #E6EDF3;
+    padding-top: 10%;
+}
+
+.reasons.text-button {
+    margin: 7% 5%;
 }
 
 .reasons-texto {
@@ -36,12 +43,10 @@ html, body {
     margin: 18px 0 18px 0;
 }
 
-
 .button-socialmedia {
     display: flex;
-    justify-content: center;
     width: 100%;
-    padding: 5%;
+    margin-bottom: 5%;
 }
 
 .button-socialmedia .fa {
@@ -55,7 +60,7 @@ html, body {
 }
 
 .button-socialmedia .fa-plus { 
-    width: 15px;
+    /* width: 15px; */
     height: 100%;
     margin: 9px 4px;
     padding: 0;
@@ -91,33 +96,80 @@ html, body {
 .button {
     margin: 5% 0;
     text-decoration: none;
-    font-size: 1.3em;
+    font-size: 1em;
     border-radius: 30px;
     border: none;
 }
 
-.button.outline {
-    padding: 1.5% 3%;
-    border: 2px solid grey;
-    background: white;
-}
-
-.button.outline.grey {
-    color: grey;
-}
-
-.button.outline.blue {
-    color: #0089f5;
-}
-
 .button.light {
-    padding: 2.5% 6%;
+    padding: 4% 8%;
     background: #0089f5;
     color: white;
+    font-weight: bold;
 }
 
-.button.dark {
-    padding: 2% 5%;
-    background: #364049;
-    color: white;
+.reasons-engagement__img {
+    width: 310px;
+    display: block;
+    margin-top: 5%;
+}
+
+/* TABLET */
+
+@media screen and (min-width: 768px) {
+    
+    .reasons-engagement {
+        display: flex;
+        padding-top: 4%;
+    }
+
+    .reasons.text-button {
+        order: 1;
+    }
+
+    .reasons-texto {
+        padding-left: 0;
+    }
+
+    .button-socialmedia .fa {
+        padding: 10px;
+    }
+
+    .button-socialmedia .fa-plus {
+        margin: 0;
+    }
+
+    .button {
+        margin: 3% 0;
+    }
+
+    .reasons-engagement__figure{
+        margin-left: -50%; 
+    }
+
+    .reasons-engagement__img {
+        order: 2;
+        width: 600px;
+    }
+}
+
+/* DESKTOP */
+
+@media screen and (min-width: 992px) {
+    
+    .reasons-engagement {
+        padding-top: 1%;
+    }
+
+    .reasons.text-button {
+        margin-top: 8%;
+    }
+
+    .reasons-engagement__figure{
+        margin: 1% 0 0 0; 
+    }
+
+    .reasons-engagement__img {
+        width: 500px;
+    }
 }
