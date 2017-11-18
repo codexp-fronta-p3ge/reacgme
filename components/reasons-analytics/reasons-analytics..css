@@ -69,7 +69,7 @@
 /* Reasons-analytics Component CSS */
 
     .analytics {
-        background-color: #dde6ed;
+        background-color: #e6edf3;
         padding-top: 48px;
     }
 
@@ -119,7 +119,7 @@
         }
 
         .reasons-texto {
-
+            align-self: center;    
         }
     }
 
