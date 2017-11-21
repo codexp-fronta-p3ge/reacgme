@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.button {
+    margin: 5% 0;
+    text-decoration: none;
+    font-size: 1.3em;
+    border-radius: 30px;
+    border: none;
+}
+
+.button.outline {
+    padding: 1.5% 3%;
+    border: 2px solid grey;
+    background: white;
+}
+
+.button.outline.grey {
+    color: grey;
+}
+
+.button.outline.blue {
+    color: #0089f5;
+}
+
+.button.light {
+    padding: 2.5% 6%;
+    background: #0089f5;
+    color: white;
+}
+
+.button.dark {
+    padding: 2% 5%;
+    background: #364049;
+    color: white;
+}
