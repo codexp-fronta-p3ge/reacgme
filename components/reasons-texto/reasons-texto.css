@@ -5,25 +5,29 @@
 
 }
 
-.reasons-texto {
+.feature_reasons-texto {
     max-width: 420px;
     padding: 6px;
 }
 
-.reasons-texto h2, .reasons-texto p {
+.feature_reasons-texto h2, .feature_reasons-texto p {
     color: #606971; 
 }
 
-.reasons-texto h1 {
+.feature_reasons-texto h1 {
     font-weight: bold;
     text-align: center;
 }
 
-.reasons-texto h2 {
+.feature_reasons-texto h2 {
     font-size: 120%;
     font-weight: bold;                 
 }
 
-.reasons-texto p {
+.feature_reasons-texto p {
     margin: 18px 0 18px 0;
+}
+
+.feature_reasons-texto p br {
+    line-height: 2;
 }
