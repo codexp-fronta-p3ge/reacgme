@@ -144,12 +144,13 @@ html, body {
     }
 
     .reasons-engagement__figure{
-        margin-left: -50%; 
+        margin-left: -40%; 
     }
 
     .reasons-engagement__img {
         order: 2;
         width: 600px;
+        margin-top: 0;
     }
 }
 
@@ -162,7 +163,7 @@ html, body {
     }
 
     .reasons.text-button {
-        margin-top: 8%;
+        margin: 8% 0 0 5%;
     }
 
     .reasons-engagement__figure{
@@ -170,6 +171,6 @@ html, body {
     }
 
     .reasons-engagement__img {
-        width: 500px;
+        height: 400px;
     }
 }
