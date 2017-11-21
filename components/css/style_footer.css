@@ -13,52 +13,94 @@ footer{
 .footer_list{
     color: #8b9095;
     list-style-type: none;
+    text-decoration: none;
     line-height: 2.5;
-    /* padding: 0 75px; */
 }
-/* a:link */
 .footer_list a:link{
     color: #959BA0;
     text-decoration: none;
+    /* list-style-type: none;     */
 }
-.fa.footer_icon{
+.footer_link{
+    list-style-type: none;
+}
+.footer_icon{
     color: #8b9095;
     padding: 35px 0 50px 0;
 }
-@media screen and (min-width: 768px) and (max-width: 1200px)
-{
-        
+@media screen and (min-width: 768px)
+{    
     footer{
         display: flex;
         flex-direction: row;
         width: 100%;
     }
     .footer_logo{
-        /* flex-grow: 1; */
-        border: 1px solid white;
+        flex-grow: 1;
+        text-align: left;
+        /* border: 1px solid white; */
     }
     .footer_list{
-        border: 1px solid;
-        display: inline-flex;
-        /* flex-grow: 1; */
-        border: 1px solid white;
-        /* width: 40%; */
+        /* border: 1px solid; */
+        display: inline-block;
+        /* float: right; */
+        flex-grow: 1;
+        /* border: 1px solid white; */
+        text-align: right;
+        justify-content: left;
+        padding: 5px;
+        margin: 0 15px;
     }
     .footer_link {
         float: right;
-        /* width: 20%; */
+        text-align: right;
+        padding: 5px;
     }
-    .fa.footer_icon{
-        border: 1px solid;
-        /* float: right; */
-        /* flex-grow: 1; */
-        margin: 1px;
-        padding: 15px 1px;
-        /* position: absolute; */
-        /* right: 50px; */
+    .footer_list a:link{
+        display: list-item;
     }
-}
-/*  float: left;
-    display: flex;
-    align-items: center;
-    justify-content: center; */
+    .footer_icon{
+        /* border: 1px solid; */
+        display: flex;
+        margin: 10px 1px 10px 0;
+        padding: 35px 10px 35px 0;
+        flex-grow: 1;
+    }
+    }
+    @media screen and (min-width: 1200px)
+    {    
+        footer{
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            padding: 0 200px 0 200px;
+        }
+        .footer_logo{
+            flex-grow: 1;
+            text-align: left;
+        }
+        .footer_list{
+            display: inline-block;
+            /* float: right; */
+            flex-grow: 1;
+            text-align: right;
+            justify-content: left;
+            padding: 5px;
+            margin: 0 15px;
+        }
+        .footer_link {
+            float: right;
+            text-align: right;
+            padding: 5px;
+        }
+        .footer_list a:link{
+            display: list-item;
+        }
+        .footer_icon{
+            display: flex;
+            float: right;
+            margin: 10px 1px 10px 0;
+            padding: 35px 10px 35px 0;
+            flex-grow: 1;
+        }
+        }
