@@ -12,10 +12,12 @@ body, html {
 .nav__all {
     width: 100%;
     display: flex;
+    justify-content: space-between;
+    padding: 5%;
+    list-style-type: none;
 }
 
 .nav__link {
-    flex-grow: 1;
-    width: 20%;
+    flex: 1 0 100px;
     align-items: center;
 }
