@@ -14,10 +14,10 @@ html, body {
     width: 100%;
     position: relative;
     background: #E6EDF3;
-    max-width: 425px;
+    /* max-width: 425px; */
 }
 
-.feature.engagement {
+.feature.reverse {
     padding: 10% 4% 0 4%;
 }
 
@@ -117,17 +117,17 @@ html, body {
     padding: 0;
 }
 
-.analytics {
+.feature.analytics {
     background-color: #e6edf3;
-    padding-top: 48px;
+    padding: 10% 4% 0 4%;
 }
 
-.analytics_img {
+.feature.analytics_img {
     position: relative;
     right: 35%;
 }
 
-.analytics_img img {
+.feature.analytics_img img {
     width: 100%;
     height: 100%;      
 }
@@ -156,10 +156,13 @@ html, body {
     .feature {
         display: flex;
         padding-top: 4%;
+        max-width: 992px;
     }
 
     .feature.text-button {
         order: 1;
+        margin: 7% 5%;
+        flex-wrap: wrap;
     }
 
     .feature-texto {
@@ -185,14 +188,11 @@ html, body {
     .feature.engagement__img {
         order: 2;
         width: 600px;
+        height: 100%;  
     }
 
-    .analytics_img {
-        right: 30%;
-    }
-
-    .analytics_img img {
-        
+    .feature.analytics_img {
+        right: 10%;
     }
 
     .flex {
@@ -220,7 +220,7 @@ html, body {
         width: 500px;
     }
 
-    .analytics_img {
+    .feature.analytics_img {
         right: 0;
     }
 
