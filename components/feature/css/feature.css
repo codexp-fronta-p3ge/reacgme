@@ -181,6 +181,10 @@ section {
         flex-direction: row;
     }
 
+    .feature.row .feature-img-right {
+        order: 1;
+    }
+
     .feature.text-button {
         order: 1;
         margin: 7% 5%;
@@ -189,6 +193,10 @@ section {
 
     .feature-texto {
         padding-left: 0;
+    }
+
+    .feature-img-right {
+        order: 1;
     }
 
     .button-socialmedia .fa {
