@@ -119,7 +119,7 @@ html, body {
 
 /* Reasons-analytics Component CSS */
 .feature_group {
-    background-color: #e6edf3;        
+    background-color: #ffffff;        
 }
 
 .feature-img-center {
@@ -208,23 +208,26 @@ html, body {
         margin-left: 0;
     }
     /* Reasons-analytics Component CSS */
+    
     .feature-img-left img {
         width: 120%;
         height: 120%;
     }
+
     .feature-img-left {
         right: 30%;
     }
 
-    .feature_row {
+    .feature.row {
         display: flex;
         flex-direction: row;
     }
 
-    .feature-reverse {
+    /* .feature reverse {
         display: flex;
         flex-direction: row-reverse;
-    }
+    } */
+
     /* Reasons-analytics Component CSS */
 
     .feature.reverse__img.analytics {
