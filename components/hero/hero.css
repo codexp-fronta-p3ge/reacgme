@@ -1,0 +1,45 @@
+.hero{
+    
+}
+
+.hero-figure{
+    padding-top: 25px;       
+}
+
+.hero-figure__img{
+    width: 100%;  
+}
+
+.hero-button{
+    width: 150px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-button-center{
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+    .hero{
+        background-color: rgb(211, 211, 211);        
+    }
+    
+    .hero-figure{
+        width: 100%;     
+        display: flex;
+        justify-content: center;       
+    }
+
+    .hero-figure__img{
+        width: 755px; 
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .hero{
+        background-color: rgba(90, 83, 83, 0.678);        
+    }    
+}
