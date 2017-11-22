@@ -2,14 +2,27 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Inconsolata', monospace;
+    font-family: 'Open Sans', sans-serif;
+    border: 1px solid black;
 }
 
-@media screen and (min-width: 768px) {
-    
-
+html,
+body {
+    border: 1px solid black;
+    height: 100%;
+    width: 100%;
 }
 
-@media screen and (min-width: 1200px) {
-
+.features {
+    height: auto;
+    position: relative;
+    border: 1px solid black;
 }
+
+footer {
+    clear: both;
+}
+
+@media screen and (min-width: 768px) {}
+
+@media screen and (min-width: 1200px) {}

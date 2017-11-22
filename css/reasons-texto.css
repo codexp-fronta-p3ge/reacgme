@@ -1,17 +1,11 @@
-# {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-
-}
-
 .feature_reasons-texto {
     max-width: 420px;
     padding: 6px;
 }
 
-.feature_reasons-texto h2, .feature_reasons-texto p {
-    color: #606971; 
+.feature_reasons-texto h2,
+.feature_reasons-texto p {
+    color: #606971;
 }
 
 .feature_reasons-texto h1 {
@@ -21,7 +15,7 @@
 
 .feature_reasons-texto h2 {
     font-size: 120%;
-    font-weight: bold;                 
+    font-weight: bold;
 }
 
 .feature_reasons-texto p {
