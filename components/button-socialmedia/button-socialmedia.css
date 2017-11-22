@@ -31,8 +31,8 @@ html, body {
     height: 100%;
     margin: 9px 4px;
     padding: 0;
-    background: white;
-    color: #e6edf3;
+    background: none;
+    color: #bbbbbb;
     font-size: .7em;
 }
 
