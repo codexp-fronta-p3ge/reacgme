@@ -1,0 +1,22 @@
+
+.reach-features{
+    text-align: center;
+}
+
+.reach-title{
+    padding: 10px;
+    margin: auto;
+    color: #000000;
+    text-align: center;
+    width: 100%;
+    max-width: 600px;    
+}
+
+.reach-text{
+    padding: 5px;
+    margin: auto;
+    color: #000000;
+    width: 80%;
+    max-width: 600px;    
+    font-weight: unset;
+}
