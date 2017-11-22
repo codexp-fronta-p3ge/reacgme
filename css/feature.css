@@ -1,0 +1,373 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html, body, .features {
+    height: 100%;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.feature {
+    width: 100%;
+    position: relative;
+    padding: 10% 4% 0 4%;
+    background: #E6EDF3;
+    background-size: cover;
+}
+
+.feature.text-button {
+    margin: 7% 0;
+}
+
+.feature-texto {
+    padding: 2%;
+}
+
+/* .feature-texto h1 {
+    font-weight: 700;
+    text-align: center;
+} */
+
+.feature-texto h2 {
+    font-size: 2em;
+    font-weight: 700;                 
+}
+
+.feature-texto p {
+    margin: 5% 0 5% 0;
+    color: #606971; 
+}
+
+.feature-texto a {
+    text-decoration: none;
+    color: #0089f5;
+}
+
+.button {
+    margin: 5% 0;
+    text-decoration: none;
+    font-size: 1em;
+    border-radius: 30px;
+    border: none;
+}
+
+.button.light {
+    padding: 4% 8%;
+    background: #0089f5;
+    color: white;
+    font-weight: bold;
+}
+
+.button-socialmedia {
+    display: flex;
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.button-socialmedia .fa {
+    width: 30px;
+    height: 30px;
+    padding: 9px;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    font-size: .8em;
+}
+
+.button-socialmedia .fa-plus { 
+    height: 100%;
+    margin: 9px 1px;
+    padding: 0;
+    background: none;
+    color: #bbbbbb;
+    font-size: .7em;
+}
+
+.button-socialmedia .fa-facebook {
+    background: #405D9B;
+}
+
+.button-socialmedia .fa-twitter {
+    background: #1DA1F2;
+}
+
+.button-socialmedia .fa-google-plus {
+    background: #DC4A38;
+}
+
+.button-socialmedia .fa-linkedin {
+    background: #0077B5;
+}
+
+.button-socialmedia .fa-pinterest {
+    background: #BD081B;
+}
+
+.button-socialmedia .fa-instagram {
+    background: #527FA4;
+}
+
+.reverse__figure, .reverse__img {
+    padding: 0;
+}
+
+.reverse__img.engagement {
+    margin-left: -4%;
+    display: block;
+    padding: 0;
+}
+
+/* Reasons-analytics Component CSS */
+
+.feature_group {
+    background-image: url('../img/bg-group.png');  
+    background-repeat: no-repeat;
+    background-position: bottom; 
+}
+
+.feature_group .feature {
+    background: none; 
+}
+
+.figure.visitors {
+    order: 1;
+    max-width: 360px;
+}
+
+.figure.visitors img {
+    display: block;
+    margin-left: 66%;            
+}
+
+.figure.publishing {
+    position: relative;
+    left: 40%;
+}
+
+.figure.publishing img {
+    width: 100%;
+    height: 100%;
+}
+
+.reverse__figure.analytics img {
+    width: 100%;
+    height: 100%;
+}
+
+.reverse__figure.analytics {
+    position: relative;
+    right: 40%;
+}
+/* Reasons-analytics Component CSS */
+
+
+.reverse__img.analytics {
+    position: relative;
+    right: 35%;
+}
+
+.reverse__img.analytics img {
+    width: 100%;
+    height: 100%;      
+}
+
+.light-bg {
+    background: white;
+}
+
+.reverse__img.app {
+    width: 100%;
+}
+
+/* TABLET */
+
+@media screen and (min-width: 768px) {
+    
+    .feature {
+        display: flex;
+        padding-top: 4%;
+        flex-direction: row;
+    }
+
+    .text-button {
+        order: 1;
+        margin: 7% 5%;
+        flex-wrap: wrap;
+    }
+
+    .feature-texto {
+        padding-left: 0;
+    }
+
+    .figure.publishing {
+        order: 1;
+        left: 5%;
+    }
+
+    .figure.publishing img {
+        width: 200%;
+    }
+
+    .button-socialmedia .fa {
+        padding: 10px;
+    }
+
+    .button-socialmedia .fa-plus {
+        margin: 0;
+    }
+
+    .button {
+        margin: 3% 0;
+    }
+
+    .reverse {
+        padding: 5% 0 0 0;
+    }
+
+    .reverse__img {
+        order: 2;
+        height: 100%;
+    }
+
+    .reverse__figure.engagement{
+        right: 10%; 
+        margin: 5% 0 0 0;
+    }
+
+    .reverse__img.engagement {
+        margin-left: 0;
+    }
+
+    .figure.visitors {
+        width: 100%;
+        height: 100%;
+        margin-left: 0;
+    }
+
+    /* Reasons-analytics Component CSS */
+    
+    .reverse__figure.analytics img {
+        width: 120%;
+        height: 120%;
+    }
+
+    .reverse__figure.analytics {
+        right: 30%;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: row;
+    }
+
+    /* Reasons-analytics Component CSS */
+
+    .reverse__img.analytics {
+        right: 10%;
+    }
+
+    .figure.card {
+        order: 1;
+        left: 15%;
+        align-items: right;
+        margin-top: 5%;
+    }
+
+    .reverse__figure.app {
+        right: 10%;
+    }
+
+    .reverse__img.app {
+        width: 110%;
+    }
+
+}
+
+/* DESKTOP */
+
+@media screen and (min-width: 992px) {
+    
+    .text-button {
+        margin-top: 8%;
+    }
+
+    .figure.publishing{
+        left: 0;
+    }
+
+    .figure.publishing img {
+        width: 120%;
+    }
+
+    .feature_group{
+        background-size: cover;
+    }
+
+    .reverse__figure {
+        margin: 1% 0 0 0; 
+        right: 0;
+    }
+
+    .reverse__img {
+        width: 100%;
+    }
+
+    .reverse__figure.engagement {
+        right: 0;
+    }
+
+     /* Reasons-analytics Component CSS */
+     .figure.publishing {
+        left: 0;
+    }
+
+    .reverse__figure.analytics {
+        right: 0;
+    } 
+
+    .feature_row {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .feature-reverse {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+    }
+
+    .feature_reasons-texto {
+        align-self: center;
+    }
+      /* Reasons-analytics Component CSS */
+
+    .feature.reverse__figure.analytics {
+        right: 0;
+    }
+
+    .figure.card {
+        left: 0;
+        width: 100%;
+    }
+
+    .feature.reverse__figure.app {
+        right: -3%;
+    }
+
+    .reverse__img.app {
+        width: 80%;
+    }
+
+}
+
+/* @media screen and (min-width: 1200px) {
+    .feature {
+        padding: 4% 10% 0 10%;
+        margin: 0 auto;
+    }
+} */

@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.reasons-engagement {
+    position: relative;
+    background: #E6EDF3;
+    padding-top: 10%;
+}
+
+.reasons.text-button {
+    margin: 7% 5%;
+}
+
+.reasons-texto {
+    max-width: 420px;
+    padding: 6px;
+}
+
+.reasons-texto h2, .reasons-texto p {
+    color: #606971; 
+}
+
+.reasons-texto h1 {
+    font-weight: bold;
+    text-align: center;
+}
+
+.reasons-texto h2 {
+    font-size: 120%;
+    font-weight: bold;                 
+}
+
+.reasons-texto p {
+    margin: 18px 0 18px 0;
+}
+
+.button-socialmedia {
+    display: flex;
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.button-socialmedia .fa {
+    width: 30px;
+    height: 30px;
+    padding: 9px;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    font-size: .8em;
+}
+
+.button-socialmedia .fa-plus { 
+    /* width: 15px; */
+    height: 100%;
+    margin: 9px 4px;
+    padding: 0;
+    background: none;
+    color: #bbbbbb;
+    font-size: .7em;
+}
+
+.button-socialmedia .fa-facebook {
+    background: #405D9B;
+}
+
+.button-socialmedia .fa-twitter {
+    background: #1DA1F2;
+}
+
+.button-socialmedia .fa-google-plus {
+    background: #DC4A38;
+}
+
+.button-socialmedia .fa-linkedin {
+    background: #0077B5;
+}
+
+.button-socialmedia .fa-pinterest {
+    background: #BD081B;
+}
+
+.button-socialmedia .fa-instagram {
+    background: #527FA4;
+}
+
+.button {
+    margin: 5% 0;
+    text-decoration: none;
+    font-size: 1em;
+    border-radius: 30px;
+    border: none;
+}
+
+.button.light {
+    padding: 4% 8%;
+    background: #0089f5;
+    color: white;
+    font-weight: bold;
+}
+
+.reasons-engagement__img {
+    width: 310px;
+    display: block;
+    margin-top: 5%;
+}
+
+/* TABLET */
+
+@media screen and (min-width: 768px) {
+    
+    .reasons-engagement {
+        display: flex;
+        padding-top: 4%;
+    }
+
+    .reasons.text-button {
+        order: 1;
+    }
+
+    .reasons-texto {
+        padding-left: 0;
+    }
+
+    .button-socialmedia .fa {
+        padding: 10px;
+    }
+
+    .button-socialmedia .fa-plus {
+        margin: 0;
+    }
+
+    .button {
+        margin: 3% 0;
+    }
+
+    .reasons-engagement__figure{
+        margin-left: -40%; 
+    }
+
+    .reasons-engagement__img {
+        order: 2;
+        width: 600px;
+        margin-top: 0;
+    }
+}
+
+/* DESKTOP */
+
+@media screen and (min-width: 992px) {
+    
+    .reasons-engagement {
+        padding-top: 1%;
+    }
+
+    .reasons.text-button {
+        margin: 8% 0 0 5%;
+    }
+
+    .reasons-engagement__figure{
+        margin: 1% 0 0 0; 
+    }
+
+    .reasons-engagement__img {
+        height: 400px;
+    }
+}
