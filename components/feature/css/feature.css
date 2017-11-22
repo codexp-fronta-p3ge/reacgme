@@ -8,6 +8,7 @@
 html, body, .features {
     height: 100%;
     width: 100%;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .feature {
@@ -15,6 +16,7 @@ html, body, .features {
     position: relative;
     padding: 10% 4% 0 4%;
     background: #E6EDF3;
+    background-size: cover;
 }
 
 .feature.text-button {
@@ -22,25 +24,27 @@ html, body, .features {
 }
 
 .feature-texto {
-    padding: 6px;
+    padding: 2%;
 }
 
-.feature-texto h2, .feature-texto p {
-    color: #606971; 
-}
-
-.feature-texto h1 {
-    font-weight: bold;
+/* .feature-texto h1 {
+    font-weight: 700;
     text-align: center;
-}
+} */
 
 .feature-texto h2 {
-    font-size: 120%;
-    font-weight: bold;                 
+    font-size: 2em;
+    font-weight: 700;                 
 }
 
 .feature-texto p {
-    margin: 18px 0 18px 0;
+    margin: 5% 0 5% 0;
+    color: #606971; 
+}
+
+.feature-texto a {
+    text-decoration: none;
+    color: #0089f5;
 }
 
 .button {
@@ -107,11 +111,11 @@ html, body, .features {
     background: #527FA4;
 }
 
-.feature.reverse__figure, .feature.reverse__img {
+.reverse__figure, .reverse__img {
     padding: 0;
 }
 
-.feature.reverse__img.engagement {
+.reverse__img.engagement {
     margin-left: -4%;
     display: block;
     padding: 0;
@@ -129,49 +133,49 @@ html, body, .features {
     background: none; 
 }
 
-.feature-img-center.visitors {
+.figure.visitors {
     order: 1;
     max-width: 360px;
 }
 
-.feature-img-center.visitors img {
+.figure.visitors img {
     display: block;
     margin-left: 66%;            
 }
 
-.feature-img-right {
+.figure.publishing {
     position: relative;
     left: 40%;
 }
 
-.feature-img-right img {
+.figure.publishing img {
     width: 100%;
     height: 100%;
 }
 
-.feature-img-left img {
+.reverse__figure.analytics img {
     width: 100%;
     height: 100%;
 }
 
-.feature-img-left {
+.reverse__figure.analytics {
     position: relative;
     right: 40%;
 }
 /* Reasons-analytics Component CSS */
 
 
-.feature.reverse__img.analytics {
+.reverse__img.analytics {
     position: relative;
     right: 35%;
 }
 
-.feature.reverse__img.analytics img {
+.reverse__img.analytics img {
     width: 100%;
     height: 100%;      
 }
 
-.feature.reverse__img.app {
+.reverse__img.app {
     width: 100%;
 }
 
@@ -181,15 +185,15 @@ html, body, .features {
     
     .feature {
         display: flex;
-        padding: 4% 0 0 0;
+        padding-top: 4%;
         flex-direction: row;
     }
 
-    .feature.row .feature-img-right {
+    .row .figure.publishing {
         order: 1;
     }
 
-    .feature.text-button {
+    .text-button {
         order: 1;
         margin: 7% 5%;
         flex-wrap: wrap;
@@ -199,11 +203,11 @@ html, body, .features {
         padding-left: 0;
     }
 
-    .feature-img-right.publishing {
+    .figure.publishing {
         left: 5%;
     }
 
-    .feature-img-right.publishing img {
+    .figure.publishing img {
         width: 200%;
     }
 
@@ -219,56 +223,57 @@ html, body, .features {
         margin: 3% 0;
     }
 
-    .feature.reverse {
+    .reverse {
         padding: 5% 0 0 0;
     }
 
-    .feature.reverse__img {
+    .reverse__img {
         order: 2;
         height: 100%;
     }
 
-    .feature.reverse__figure.engagement{
+    .reverse__figure.engagement{
         right: 10%; 
         margin: 5% 0 0 0;
     }
 
-    .feature.reverse__img.engagement {
+    .reverse__img.engagement {
         margin-left: 0;
     }
 
-    .feature-img-center.visitors {
+    .figure.visitors {
         width: 100%;
+        height: 100%;
         margin-left: 0;
     }
 
     /* Reasons-analytics Component CSS */
     
-    .feature-img-left img {
+    .reverse__figure.analytics img {
         width: 120%;
         height: 120%;
     }
 
-    .feature-img-left {
+    .reverse__figure.analytics {
         right: 30%;
     }
 
-    .feature.row {
+    .row {
         display: flex;
         flex-direction: row;
     }
 
     /* Reasons-analytics Component CSS */
 
-    .feature.reverse__img.analytics {
+    .reverse__img.analytics {
         right: 10%;
     }
 
-    .feature.reverse__figure.app {
+    .reverse__figure.app {
         right: 10%;
     }
 
-    .feature.reverse__img.app {
+    .reverse__img.app {
         width: 110%;
     }
 
@@ -278,41 +283,41 @@ html, body, .features {
 
 @media screen and (min-width: 992px) {
     
-    .feature.text-button {
+    .text-button {
         margin-top: 8%;
     }
 
-    .feature-img-right.publishing{
+    .figure.publishing{
         left: 0;
     }
 
-    .feature-img-right.publishing img {
-        width: 100%;
+    .figure.publishing img {
+        width: 120%;
     }
 
     .feature_group{
         background-size: cover;
     }
 
-    .feature.reverse__figure {
+    .reverse__figure {
         margin: 1% 0 0 0; 
         right: 0;
     }
 
-    .feature.reverse__img {
+    .reverse__img {
         width: 100%;
     }
 
-    .feature.reverse__figure.engagement {
+    .reverse__figure.engagement {
         right: 0;
     }
 
      /* Reasons-analytics Component CSS */
-     .feature-img-right {
+     .figure.publishing {
         left: 0;
     }
 
-    .feature-img-left {
+    .reverse__figure.analytics {
         right: 0;
     } 
 
@@ -333,16 +338,23 @@ html, body, .features {
     }
       /* Reasons-analytics Component CSS */
 
-    .feature.feature.reverse__figure.analytics {
+    .feature.reverse__figure.analytics {
         right: 0;
     }
 
-    .feature.feature.reverse__figure.app {
+    .feature.reverse__figure.app {
         right: -3%;
     }
 
-    .feature.reverse__img.app {
+    .reverse__img.app {
         width: 80%;
     }
 
 }
+
+/* @media screen and (min-width: 1200px) {
+    .feature {
+        padding: 4% 10% 0 10%;
+        margin: 0 auto;
+    }
+} */
